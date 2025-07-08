@@ -36,4 +36,23 @@ body {
   .animate-loading-bar {
     animation: loading 0.8s ease infinite;
   }
+  .imgSize {
+    @apply size-5;
+  }
+
+  .buttonSize {
+    @apply mt-10 h-20 w-20 justify-center items-center flex;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    background-color: inherit;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .buttonSize:hover {
+    transform: scale(1.2);
+  }
 }
